@@ -35,7 +35,6 @@ function App() {
     if (bmi<30) return "Overweight";
     return "Obese";
   }
-
   function handleCalculate(e) {
     e.preventDefault();
 
@@ -49,7 +48,6 @@ function App() {
       return;
     }
 
-    // convert the input to kg and meters first
     const kg = Number(weight) * weightToKg[weightUnit];
     const meters = Number(height) * heightToMeters[heightUnit];
 
