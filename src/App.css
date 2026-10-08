@@ -1,118 +1,79 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #0f172a;
-  color: #e2e8f0;
+  background: #1a1a2e;
+  color: white;
 }
 
 .app {
-  max-width: 360px;
-  margin: 60px auto;
-  padding: 24px;
-  background: #1e293b;
-  border: 1px solid #334155;
-  border-radius: 10px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  max-width: 350px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #16213e;
+  border-radius: 8px;
 }
 
 h1 {
   text-align: center;
-  color: #38bdf8;
-  margin-top: 0;
+  color: #4fc3f7;
 }
 
 label {
   display: block;
-  margin-top: 14px;
+  margin-top: 12px;
   font-weight: bold;
-  color: #cbd5e1;
 }
 
 .row {
   display: flex;
   gap: 8px;
-  margin-top: 6px;
+  margin-top: 5px;
 }
 
 .row input {
   flex: 1;
   min-width: 0;
-  padding: 8px;
-  background: #0f172a;
-  color: #e2e8f0;
-  border: 1px solid #475569;
-  border-radius: 6px;
+  padding: 6px;
 }
 
 .row select {
-  padding: 8px;
-  background: #0f172a;
-  color: #e2e8f0;
-  border: 1px solid #475569;
-  border-radius: 6px;
+  padding: 6px;
 }
 
-.row input:focus,
-.row select:focus {
-  outline: none;
-  border-color: #38bdf8;
-}
-
-.row input.invalid {
-  border-color: #f87171;
+.invalid {
+  border: 2px solid red;
 }
 
 .error {
-  color: #f87171;
+  color: #ff6b6b;
   font-size: 14px;
-  margin: 6px 0 0;
+  margin: 4px 0 0;
 }
 
 .buttons {
   display: flex;
   gap: 8px;
-  margin-top: 20px;
+  margin-top: 16px;
 }
 
 .buttons button {
   flex: 1;
-  padding: 10px;
-  border: none;
-  border-radius: 6px;
-  background: #0ea5e9;
-  color: white;
-  font-size: 15px;
+  padding: 8px;
   cursor: pointer;
 }
 
-.buttons button:hover {
-  background: #0284c7;
-}
-
-.buttons .secondary {
-  background: #475569;
-}
-
-.buttons .secondary:hover {
-  background: #64748b;
-}
-
 .result {
-  margin-top: 24px;
-  padding: 16px;
+  margin-top: 20px;
   text-align: center;
-  background: #0f172a;
-  border-radius: 8px;
 }
 
 .bmi {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: bold;
-  color: #38bdf8;
+  color: #4fc3f7;
   margin: 0;
 }
 
 .category {
-  margin: 6px 0 0;
-  font-size: 18px;
+  margin: 4px 0 0;
 }
